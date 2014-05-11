@@ -10,5 +10,5 @@ plot(datetime,data$Sub_metering_1,type="l",
      main="")
 lines(datetime,data$Sub_metering_2,col="red")
 lines(datetime,data$Sub_metering_3,col="blue")
-legend("topright",pch="-",col=c("black","red","blue"), legend=names(data)[7:9])
+legend("topright",lwd=1,col=c("black","red","blue"), legend=names(data)[7:9])
 dev.off()
